@@ -8,7 +8,7 @@ class LatchExfiltrationReader(LatchExfiltration):
 
     def __init__(self):
         LatchExfiltration.__init__(self)
-        #self.read_exfiltrated_message()
+        
     
     def read_exfiltrated_byte(self):
         """Get the exfiltrated byte of latch and convert it into its ascii representation
