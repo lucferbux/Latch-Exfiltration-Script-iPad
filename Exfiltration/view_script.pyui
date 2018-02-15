@@ -1,0 +1,196 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{15, 22}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "action" : "",
+          "frame" : "{{245, 255}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch1",
+          "uuid" : "29B1C4B8-1473-4420-82C4-4FC7BC7D39BD"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{107, 387}, {291, 34}}",
+        "class" : "Button",
+        "attributes" : {
+          "flex" : "W",
+          "action" : "start_function",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Start",
+          "uuid" : "15D71172-1892-4646-9F30-934D0CBCC267",
+          "class" : "Button",
+          "name" : "button_start",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{15, 61}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "frame" : "{{245, 255}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch2",
+          "uuid" : "6F0E3768-5E12-435D-9119-70BA619A4EE0"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{15, 100}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "frame" : "{{245, 255}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch3",
+          "uuid" : "BA8A82A3-8F31-452C-AA30-DBC7FCD43E9A"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{15, 139}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "frame" : "{{245, 255}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch4",
+          "uuid" : "6539B609-EC9D-4585-87F0-B39709D2AE60"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{15, 178}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "frame" : "{{245, 255}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch5",
+          "uuid" : "AC5AF825-9098-430E-827B-62E0088DF425"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{15, 217}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "frame" : "{{245, 255}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch6",
+          "uuid" : "C80522EE-BDEE-403D-961B-BEEEF628FE81"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{15, 256}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "frame" : "{{245, 255}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch7",
+          "uuid" : "1260B637-F966-4298-B718-B576606E9993"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{15, 295}, {51, 31}}",
+        "class" : "Switch",
+        "attributes" : {
+          "frame" : "{{245, 255}, {51, 31}}",
+          "value" : true,
+          "class" : "Switch",
+          "name" : "switch8",
+          "uuid" : "D7631C39-678B-4CEB-AEEA-2FAF048814EA"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{89, 22}, {429, 304}}",
+        "class" : "Label",
+        "attributes" : {
+          "flex" : "W",
+          "font_size" : 18,
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "41905B4D-75BA-4C6A-B50F-4DB931EC7C76",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Sending: ...",
+          "name" : "label1",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{15, 347}, {503, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "uuid" : "03008BA9-9CFC-45AF-B460-696CCA38EDCB",
+          "font_size" : 17,
+          "frame" : "{{170, 254}, {200, 32}}",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "text" : "",
+          "placeholder" : "Message to write",
+          "font_name" : "<System>",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "name" : "textfield1",
+          "flex" : "W"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
