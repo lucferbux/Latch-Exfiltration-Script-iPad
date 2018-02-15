@@ -1,1 +1,8 @@
 /Exfiltration/constants.py
+
+# Icloud Settings
+*.icloud
+
+
+#
+*.pyc*
