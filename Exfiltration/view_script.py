@@ -3,10 +3,7 @@ from latch_exfiltration import LatchExfiltration
 import time
 import os
 
-
-account_id = "d2TpRjr4FmjjKAgb4tKje8KYwsVmr77eartMvK8dFz22TWwCQHyLnvqBG7icrpUV"
-latch_exfiltration = LatchExfiltration(account_id)
-
+latch_exfiltration = LatchExfiltration()
 
 def get_byte(byte):
 	view['label1'].text = "Writting: " + latch_exfiltration.ascii_to_string(byte)

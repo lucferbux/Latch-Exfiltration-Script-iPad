@@ -8,9 +8,11 @@ class LatchExfiltration(object):
 
     latches = ['1', '2', '3', '4', '5', '6', '7', '8', 'control', 'reader', 'end']
 
-    def __init__(self, account_id=None):
-        self.latch = latch_interface.LatchInterface(account_id)
-        self.dict_converted = self.start_exfiltration()
+    def __init__(self, account_id=None, test=False):
+    	self.account_id = account_id = "d2TpRjr4FmjjKAgb4tKje8KYwsVmr77eartMvK8dFz22TWwCQHyLnvqBG7icrpUV"
+        self.latch = latch_interface.LatchInterface(self.account_id)
+        if(not test):
+        	self.dict_converted = self.start_exfiltration()
 
     # Initiation
     def clean_exfiltration(self):

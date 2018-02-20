@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from exfiltration_reader import LatchExfiltrationReader
 from exfiltration_writer import LatchExfiltrationWriter
 from latch_interface import LatchInterface

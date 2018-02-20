@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from latch_exfiltration import LatchExfiltration
 import time
 import os
